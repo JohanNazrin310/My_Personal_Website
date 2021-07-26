@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "utf-8" />
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+        <title>Contact Page</title>
+        <link rel = "stylesheet" href = "assets/css/styleContact.css" />
+        <link rel="icon" href="assets/img/joLogo.png" />
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <section>
+            <div class = "container">
+                <div class="dropdown" style="position: absolute; right: 104.5%; bottom: 97%;">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                      <a href="index.html">Home</a>
+                      <a href="Business.html">My Business</a>
+                      <a href="AboutMe.html">About Me</a>
+                      <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class = "contactinfo">
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class = "info">
+                            <li>
+                                <span><img src = "assets/img/location.png"></span>
+                                <span>Sungai Buloh ,<br>Selangor</span>
+                            </li>
+                            <li>
+                                <span><img src = "assets/img/email.png"></span>
+                                <span>johannazrin310@gmail.com</span>
+                            </li>
+                            <li>
+                                <span><img src = "assets/img/call.png"></span>
+                                <span>017-385 7225</span>
+                            </li>
+                        </ul>
+                    </div>
+                        <ul class = "sci">
+                            <li><a href = "https://instagram.com/johan_nazrin"><img src = "assets/img/ig.png" width = "25" height = "25"></a></li>
+                            <li><a href = "https://www.snapchat.com/add/johannazrin310"><i class='bx bxl-snapchat' width = "50" height = "50"></i></a></li>
+                            <li><a href = "https://twitter.com/johan310_"><img src = "assets/img/twitter.png" style = "width: 25px; height: 25px; color: white;"></a></li>
+                            <li><a href = "https://www.facebook.com/profile.php?id=100005984078849"><img src = "assets/img/facebook.png" width = "25" height = "25"></a></li>
+                        </ul>
+                </div>
+                <form action = "https://formsubmit.co/johannazrin310@gmail.com" method="POST">
+                    <div class = "contactForm">
+                        <h2>Send a Message</h2>
+                        <div class = "formBox">
+                            <div class = "inputBox w50">
+                                <input type = "text" name = "name" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class = "inputBox w50">
+                                <input type = "text" name = "name" required>
+                                <span>Last Name</span>
+                            </div>
+                            <div class = "inputBox w50">
+                                <input type = "email" name = "email" required>
+                                <span>Email Address</span>
+                            </div>
+                            <div class = "inputBox w50">
+                                <input type = "text" name = "num" required>
+                                <span>Mobile Number</span>
+                            </div>
+                            <div>
+                                <form id = "gender">
+                                    <p>Please select your gender:</p>
+                                    <input type="radio" name="gender" value="male">
+                                    <label for="male">Male</label><br>
+                                    <input type="radio" name="gender" value="female">
+                                    <label for="female">Female</label><br><br><br>
+                                </form>
+                            </div>
+                            <div>
+                                <form id = "feedback">
+                                    <p>What do you like about our website?</p>
+                                    <input type="checkbox" name="feedback" value="Good">
+                                    <label for="Good">Its easy to navigate</label><br>
+                                    <input type="checkbox" name="feedback" value="Bad">
+                                    <label for="Bad">The information is easy to find</label><br>
+                                    <input type="checkbox" name="feedback" value="Bad">
+                                    <label for="Bad">The use of colour on this website looks <br>attractive</label>
+                                </form>
+                            </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class ="inputBox w100">
+                                <button type = "submit" value = "Submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+
+</html>
